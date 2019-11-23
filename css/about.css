@@ -1,0 +1,94 @@
+.aboutSection,
+.whatWeDo {
+    font-family: 'Trebuchet MS';
+}
+
+.work {
+    font-family: sans-serif;
+}
+
+/* .about {
+    padding: 5%;
+}
+
+h3 {
+    border-bottom: 0.5px solid;
+    padding: 2% 0 1% 0;
+}
+
+.work,
+.working-way {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.work div,
+.working-way div {
+    padding: 2%;
+
+}
+
+.work div p,
+.working-way div p {
+    text-align: center;
+}
+
+.work div:nth-child(2),
+.working-way div:nth-child(2) {
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+} */
+
+.aboutSection {
+    width: 30%;
+    margin: 5% auto;
+    background-color: #eee;
+    padding: 2%;
+}
+
+.aboutSection h2 {
+    text-align: center;
+    color: #000;
+}
+
+.aboutSection p {
+    text-align: justify;
+    color: #000;
+}
+
+.whatWeDo {
+    width: 30%;
+    margin: -4% auto;
+    background-color: #eee;
+    padding: 2px;
+}
+
+.whatWeDo h2 {
+    text-align: center;
+    color: #000;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    width: 70%;
+    margin: 7% auto;
+}
+
+.work div {
+    padding: 2%;
+
+}
+
+.work div p {
+    text-align: center;
+}
+
+.work div:nth-child(2) {
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+}

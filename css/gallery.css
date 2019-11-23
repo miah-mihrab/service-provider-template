@@ -1,0 +1,33 @@
+.projects {
+    padding: 5%;
+}
+
+.latest-project,
+.project-completed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+}
+
+h3 {
+    border-bottom: 0.5px solid;
+    padding: 2% 0 1% 0;
+}
+
+.p {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p::before {
+    position: absolute;
+    content: 'Learn More';
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    cursor: pointer;
+    z-index: 1;
+}

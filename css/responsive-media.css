@@ -1,0 +1,148 @@
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: 48vh;
+    }
+
+    /* GALLERY PAGE */
+    .projects .latest-project,
+    .projects .project-completed {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    header .header-menu {
+
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* INDEX PAGE */
+    header {
+        overflow: visible;
+
+    }
+
+    header .header-menu {
+        position: absolute;
+        background-color: rgba(60, 60, 60, 0.8);
+        width: 50%;
+        height: 90vh;
+        margin-top: 52vh !important;
+        margin-left: 700px;
+        transition: 0.3s;
+    }
+
+    header .header-menu ul {
+        flex-direction: column;
+        height: 100% !important;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    header .header-menu ul li {
+        width: 80px;
+        margin-left: -6% !important;
+        margin-bottom: 25px;
+    }
+
+    header .menu-icon {
+        display: block;
+    }
+
+    .show-header-menu {
+        margin-left: 50% !important;
+
+        transition: 0.5s;
+    }
+
+    .banner {
+        height: 33vh;
+    }
+
+    .banner .banner-inner h1 {
+        font-size: 180%;
+    }
+
+    /* SERVICE */
+    .services .single-service {
+        width: 100%;
+        grid-template-columns: 100%;
+        margin-bottom: 15%;
+    }
+
+    .web-design,
+    .web-dev,
+    .quality-assurance {
+        padding: 2%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .quality-assurance {
+        /* border-bottom: 1px solid red; */
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .gallery .project-gallery {
+        width: 100%;
+    }
+
+    .gallery .project-gallery button {
+        float: right;
+    }
+
+    .gallery .showcase {
+        width: 100%;
+    }
+
+    .social {
+        width: 100%;
+    }
+
+    .social i {
+        font-size: 1.5rem;
+    }
+
+    .social a {
+        font-size: 1rem;
+        padding: 3px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"],
+    .contact form select,
+    .contact form textarea {
+        width: 100%;
+    }
+
+    .projects .latest-project,
+    .projects .project-completed {
+        grid-template-columns: 100%;
+    }
+
+
+
+    /* ABOUT PAGE */
+    .aboutSection,
+    .whatWeDo {
+        width: 80%;
+    }
+
+    .work {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Contact Page */
+    .contact {
+        width: 80%;
+    }
+}

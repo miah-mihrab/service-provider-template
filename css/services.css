@@ -1,0 +1,81 @@
+.service-banner {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+}
+
+.service-banner .banner {
+
+    background-image: url('../img/keyboard.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.service-banner h3 {
+    position: absolute;
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+    width: 90%;
+    padding: 10%;
+    letter-spacing: 10px;
+}
+
+.service-banner::before {
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 70%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+.services .all-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.services .single-service {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2%;
+}
+
+.single-service .srvs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.single-service div:nth-child(even) {
+
+    border-bottom: 0.3px solid;
+    border-right: 0.3px solid;
+}
+
+.single-service div:nth-child(6) {
+
+    border: 0px;
+}
+
+.single-service .srvs i {
+    font-size: 2.5rem;
+}
+
+.single-service .srvs p {
+    text-align: center;
+}
