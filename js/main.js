@@ -88,8 +88,10 @@ for (let i = 0; i < menu_a.length; i++) {
 //     })
 // })
 
+
+
 //Random Image
-const projects = document.querySelectorAll('.p');
+const projects = document.querySelectorAll('.pic');
 //console.log(projects.length)
 
 function randomImg(i) {

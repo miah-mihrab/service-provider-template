@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
     .banner {
-        height: 48vh;
+        height: 38vh;
     }
 
     /* GALLERY PAGE */
@@ -145,4 +145,18 @@
     .contact {
         width: 80%;
     }
+}
+
+@media screen and (max-width: 550px) and (min-width: 351px) {
+    .banner {
+        height: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .banner {
+        height: 13vh;
+    }
+
 }
